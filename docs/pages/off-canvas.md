@@ -50,6 +50,7 @@ Along with the Off-canvas container, the main content of your page will be house
   <!-- Your page content lives here -->
 </div>
 ```
+N.B. Note that the order is important! - if the off-canvas content isn't first then the off-canvas will still operate but the push transition will not work and you will see an overlap transition regardless of settings.
 
 So putting it all together:
 
